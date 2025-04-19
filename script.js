@@ -18,8 +18,9 @@ class Product {
   // Returns a formatted string with product details
     // Return a string describing the product
     toString() {
-      return `Product: ${this.name}, Price: $${this.price.toFixed(2)}, Quantity: ${this.quantity}`;
-    }
+        return `Product Name: ${this.name} | Price: $${this.price.toFixed(2)} | Qty: ${this.quantity}`;
+      }
+      
   
     // Static method to apply discount to an array of products
     static applyDiscount(products, discount) {

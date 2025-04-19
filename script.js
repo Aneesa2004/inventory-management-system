@@ -104,7 +104,7 @@ class Product {
   // Log total inventory value before applying any discount
   console.log("Inventory value before discount: $" + store.getInventoryValue().toFixed(2));
   
-  
+  // Apply a 15% discount to all products in the store
   // Apply 15% discount to all products
   Product.applyDiscount(store.inventory, 0.15);
   

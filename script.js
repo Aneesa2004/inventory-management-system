@@ -103,6 +103,7 @@ class Product {
   Product.applyDiscount(store.inventory, 0.15);
   
   // Print inventory value after discount
+  // Log inventory value after applying 15% discount
   console.log("Inventory value after 15% discount: $" + store.getInventoryValue().toFixed(2));
   
   // Find and print a product by name

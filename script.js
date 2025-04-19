@@ -94,9 +94,6 @@ class Product {
   store.addProduct(milk);
   store.addProduct(yogurt);
 
-  const tempProduct = new Product("Test Product", 1.0, 1);
-  store.addProduct(tempProduct);
-
   // Print inventory value before discount
   // Log total inventory value before applying any discount
   console.log("Inventory value before discount: $" + store.getInventoryValue().toFixed(2));

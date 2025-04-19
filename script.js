@@ -32,7 +32,8 @@ class Product {
   // ==============================
   // PART 2: PerishableProduct Class
   // ==============================
-  
+  // Overrides toString to also show expiration date
+
   class PerishableProduct extends Product {
     constructor(name, price, quantity, expirationDate) {
       super(name, price, quantity);

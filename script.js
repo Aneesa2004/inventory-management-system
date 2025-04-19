@@ -29,6 +29,8 @@ class Product {
       });
     }
   }
+
+  // (Add a blank line here)
   
   // ==============================
   // PART 2: PerishableProduct Class

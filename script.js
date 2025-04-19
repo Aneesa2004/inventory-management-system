@@ -49,7 +49,7 @@ class Product {
   // ========================
   // PART 3: Store Class
   // ========================
-  
+  // Adds a product to the store's inventory
   class Store {
     constructor() {
       this.inventory = [];

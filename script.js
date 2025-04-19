@@ -121,4 +121,4 @@ class Product {
   } else {
     console.log("Product not found.");
   }
-  
+  console.log("Inventory system test completed!");

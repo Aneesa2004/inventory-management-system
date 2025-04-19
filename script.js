@@ -2,6 +2,8 @@
 // PART 1: Product Class
 // ========================
 
+// Calculates the total value of the product (price × quantity)
+
 class Product {
     constructor(name, price, quantity) {
       this.name = name;
@@ -13,7 +15,7 @@ class Product {
     getTotalValue() {
       return this.price * this.quantity;
     }
-  
+  // Returns a formatted string with product details
     // Return a string describing the product
     toString() {
       return `Product: ${this.name}, Price: $${this.price.toFixed(2)}, Quantity: ${this.quantity}`;

@@ -107,6 +107,7 @@ class Product {
   console.log("Inventory value after 15% discount: $" + store.getInventoryValue().toFixed(2));
   
   // Find and print a product by name
+  // Search for a specific product in the inventory by name
   const foundProduct = store.findProductByName("Milk");
   if (foundProduct) {
     console.log("Found product: " + foundProduct.toString());

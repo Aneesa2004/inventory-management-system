@@ -114,6 +114,7 @@ class Product {
   
   // Find and print a product by name
   // Search for a specific product in the inventory by name
+  console.log("==== PRODUCT SEARCH ====");
   const foundProduct = store.findProductByName("Milk");
   if (foundProduct) {
     console.log("Found product details: " + foundProduct.toString());

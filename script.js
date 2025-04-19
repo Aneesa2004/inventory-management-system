@@ -83,7 +83,7 @@ class Product {
   // Create normal products
   const apple = new Product("Apple", 2.5, 50);
   const banana = new Product("Yellow Banana", 1.2, 30);
-  const rice = new Product("Rice", 10.0, 10);
+  const rice = new Product("Basmati Rice", 10.0, 10);
   
   // Create perishable products
   const milk = new PerishableProduct("Milk", 1.5, 10, "2024-12-31");
